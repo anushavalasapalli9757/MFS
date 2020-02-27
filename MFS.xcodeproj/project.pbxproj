@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086E7C202407EB61006D41FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E7C1F2407EB61006D41FE /* LoginViewController.swift */; };
 		13DBAE42DFDFA73C2ABFF81D /* Pods_MFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828034F17871F58DCC04D0A /* Pods_MFS.framework */; };
 		1463F303B4032AF3B685E3DA /* Pods_MFSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79ED13423042AE354E48577 /* Pods_MFSTests.framework */; };
 		57C424162F9C2EADBAFF536F /* Pods_MFS_MFSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CC1DE60964A161495553C0 /* Pods_MFS_MFSUITests.framework */; };
@@ -114,6 +115,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086E7C1F2407EB61006D41FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2A493C13BF6EF688A61EBCFE /* Pods-MFS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFS.release.xcconfig"; path = "Target Support Files/Pods-MFS/Pods-MFS.release.xcconfig"; sourceTree = "<group>"; };
 		5828034F17871F58DCC04D0A /* Pods_MFS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4D25E45BC4374AF5CC25A6 /* Pods-MFSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSTests.release.xcconfig"; path = "Target Support Files/Pods-MFSTests/Pods-MFSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				A536CDEB23FC1A0A001CD583 /* MFS.swift */,
 				A539BE5F240550EA00EE8055 /* Fonts */,
 				A536CDAE23FC1266001CD583 /* SceneDelegate.swift */,
+				086E7C1F2407EB61006D41FE /* LoginViewController.swift */,
 				A536CDB023FC1266001CD583 /* ViewController.swift */,
 				A539BE5B2405416000EE8055 /* SecondController.swift */,
 				A539BE5D2405417700EE8055 /* ThirdController.swift */,
@@ -652,6 +655,7 @@
 				A539BEB4240551F400EE8055 /* Montserrat-ExtraLightItalic.ttf in Sources */,
 				A539BEB5240551F400EE8055 /* Montserrat-ExtraBold.ttf in Sources */,
 				A539BEB6240551F400EE8055 /* OFL.txt in Sources */,
+				086E7C202407EB61006D41FE /* LoginViewController.swift in Sources */,
 				A539BEB7240551F400EE8055 /* Montserrat-Black.ttf in Sources */,
 				A539BEB8240551F400EE8055 /* Montserrat-Regular.ttf in Sources */,
 				A539BEB9240551F400EE8055 /* Montserrat-Italic.ttf in Sources */,
