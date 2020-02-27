@@ -10,6 +10,7 @@
 		086E7C202407EB61006D41FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E7C1F2407EB61006D41FE /* LoginViewController.swift */; };
 		13DBAE42DFDFA73C2ABFF81D /* Pods_MFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828034F17871F58DCC04D0A /* Pods_MFS.framework */; };
 		1463F303B4032AF3B685E3DA /* Pods_MFSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79ED13423042AE354E48577 /* Pods_MFSTests.framework */; };
+		342F206C2407F64C00DE247B /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F206B2407F64C00DE247B /* OTPViewController.swift */; };
 		57C424162F9C2EADBAFF536F /* Pods_MFS_MFSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CC1DE60964A161495553C0 /* Pods_MFS_MFSUITests.framework */; };
 		A536CDAD23FC1266001CD583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A536CDAC23FC1266001CD583 /* AppDelegate.swift */; };
 		A536CDAF23FC1266001CD583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A536CDAE23FC1266001CD583 /* SceneDelegate.swift */; };
@@ -117,6 +118,7 @@
 /* Begin PBXFileReference section */
 		086E7C1F2407EB61006D41FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2A493C13BF6EF688A61EBCFE /* Pods-MFS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFS.release.xcconfig"; path = "Target Support Files/Pods-MFS/Pods-MFS.release.xcconfig"; sourceTree = "<group>"; };
+		342F206B2407F64C00DE247B /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		5828034F17871F58DCC04D0A /* Pods_MFS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4D25E45BC4374AF5CC25A6 /* Pods-MFSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSTests.release.xcconfig"; path = "Target Support Files/Pods-MFSTests/Pods-MFSTests.release.xcconfig"; sourceTree = "<group>"; };
 		99BCFEBF49395A110CB0D7D1 /* Pods-MFS-MFSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFS-MFSUITests.release.xcconfig"; path = "Target Support Files/Pods-MFS-MFSUITests/Pods-MFS-MFSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -225,6 +227,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		342F20692407F60400DE247B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				086E7C1F2407EB61006D41FE /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		342F206A2407F61C00DE247B /* Otp */ = {
+			isa = PBXGroup;
+			children = (
+				342F206B2407F64C00DE247B /* OTPViewController.swift */,
+			);
+			path = Otp;
+			sourceTree = "<group>";
+		};
 		A536CDA023FC1266001CD583 = {
 			isa = PBXGroup;
 			children = (
@@ -250,12 +268,13 @@
 		A536CDAB23FC1266001CD583 /* MFS */ = {
 			isa = PBXGroup;
 			children = (
+				342F206A2407F61C00DE247B /* Otp */,
+				342F20692407F60400DE247B /* Login */,
 				A536CDDF23FC145E001CD583 /* ServiceHandlers */,
 				A536CDAC23FC1266001CD583 /* AppDelegate.swift */,
 				A536CDEB23FC1A0A001CD583 /* MFS.swift */,
 				A539BE5F240550EA00EE8055 /* Fonts */,
 				A536CDAE23FC1266001CD583 /* SceneDelegate.swift */,
-				086E7C1F2407EB61006D41FE /* LoginViewController.swift */,
 				A536CDB023FC1266001CD583 /* ViewController.swift */,
 				A539BE5B2405416000EE8055 /* SecondController.swift */,
 				A539BE5D2405417700EE8055 /* ThirdController.swift */,
@@ -651,6 +670,7 @@
 				A539BEB0240551F400EE8055 /* Montserrat-Bold.ttf in Sources */,
 				A539BEB1240551F400EE8055 /* Montserrat-MediumItalic.ttf in Sources */,
 				A539BEB2240551F400EE8055 /* Montserrat-BlackItalic.ttf in Sources */,
+				342F206C2407F64C00DE247B /* OTPViewController.swift in Sources */,
 				A539BEB3240551F400EE8055 /* Montserrat-SemiBold.ttf in Sources */,
 				A539BEB4240551F400EE8055 /* Montserrat-ExtraLightItalic.ttf in Sources */,
 				A539BEB5240551F400EE8055 /* Montserrat-ExtraBold.ttf in Sources */,

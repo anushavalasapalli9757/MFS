@@ -47,7 +47,8 @@ class LoginViewController: UIViewController {
     
    
      @IBAction func loginAction(_ sender: Any) {
-      
+      let otpView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "OTPViewController")as? OTPViewController
+      self.navigationController?.pushViewController(otpView!, animated: true)
       //  loginAction.layer.cornerRadius = loginAction.height / 2
     }
 
