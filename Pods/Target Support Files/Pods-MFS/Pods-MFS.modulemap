@@ -1,0 +1,6 @@
+framework module Pods_MFS {
+  umbrella header "Pods-MFS-umbrella.h"
+
+  export *
+  module * { export * }
+}
