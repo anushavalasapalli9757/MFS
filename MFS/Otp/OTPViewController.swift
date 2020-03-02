@@ -20,7 +20,10 @@ class OTPViewController: UIViewController {
            view1?.layer.shadowOpacity = 0.5
            view1?.layer.shadowRadius = 4
        }
-
+    @IBAction func backAction(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
