@@ -3,6 +3,7 @@
   pod 'Alamofire', '~> 4.7'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'MBProgressHUD'
 
 target 'MFS' do
   # Comment the next line if you don't want to use dynamic frameworks

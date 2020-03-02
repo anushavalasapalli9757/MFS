@@ -10,8 +10,14 @@ import UIKit
 
 class OTPViewController: UIViewController {
 
-     @IBOutlet var view1: UIView!
-       
+    @IBOutlet weak var otpField: UITextField!
+    @IBOutlet var view1: UIView!
+    @IBOutlet weak var tiimerValue: UILabel!
+    
+    var timer = Timer()
+    var seconds = <#value#>
+    
+    
        override func viewDidLoad() {
            super.viewDidLoad()
            view1.layer.masksToBounds = false
@@ -21,14 +27,9 @@ class OTPViewController: UIViewController {
            view1?.layer.shadowRadius = 4
        }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   func runTimer() {
+         timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(ViewController.updateTimer)), userInfo: nil, repeats: true)
     }
-    */
 
+    
 }

@@ -193,7 +193,10 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xj1-Pc-BGB">
                                         <rect key="frame" x="45" y="5" width="304" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="0rq-KK-CtF" id="Ln5-bm-XKY"/>
+                                        </connections>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="Czf-fu-tLm">
                                         <rect key="frame" x="5" y="5" width="40" height="40"/>
@@ -236,7 +239,10 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mJN-X4-cTk">
                                         <rect key="frame" x="45" y="5" width="304" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="0rq-KK-CtF" id="eQb-Gy-X9t"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -391,6 +397,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="J75-XC-sgB" id="aJh-Fh-kuZ"/>
+                                        </connections>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="4B1-DF-QFj">
                                         <rect key="frame" x="0.0" y="8" width="34" height="34"/>
@@ -453,12 +462,14 @@
                         <viewLayoutGuide key="safeArea" id="lJd-7r-Ya5"/>
                     </view>
                     <connections>
+                        <outlet property="otpField" destination="k2X-hB-ws4" id="dBT-UC-rAP"/>
+                        <outlet property="tiimerValue" destination="xSd-Ir-JyI" id="EQI-Fk-ctV"/>
                         <outlet property="view1" destination="FC7-l5-VvN" id="0yg-8S-5Ms"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bX-JC-FB1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-748" y="107"/>
+            <point key="canvasLocation" x="1207" y="-571"/>
         </scene>
     </scenes>
     <resources>
